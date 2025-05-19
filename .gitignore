@@ -1,0 +1,3 @@
+node_modules/
+cockroach-v23.2.5.linux-amd64/
+local-data/

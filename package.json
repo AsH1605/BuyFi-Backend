@@ -1,0 +1,28 @@
+{
+  "name": "buyfi-backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsH1605/BuyFi-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsH1605/BuyFi-Backend/issues"
+  },
+  "homepage": "https://github.com/AsH1605/BuyFi-Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "pg": "^8.16.0",
+    "typeorm": "^0.3.24"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.2"
+  },
+  "type": "module"
+}
