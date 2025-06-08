@@ -2,7 +2,7 @@
   "name": "buyfi-backend",
   "version": "1.0.0",
   "description": "backend",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,11 +18,12 @@
   "homepage": "https://github.com/AsH1605/BuyFi-Backend#readme",
   "dependencies": {
     "dotenv": "^16.5.0",
-    "pg": "^8.16.0",
-    "typeorm": "^0.3.24"
+    "knex": "^3.1.0",
+    "pg": "^8.7.3"
   },
   "devDependencies": {
-    "@types/pg": "^8.15.2"
-  },
-  "type": "module"
+    "@types/knex": "^0.16.1",
+    "@types/pg": "^8.15.4",
+    "typescript": "^5.8.3"
+  }
 }
